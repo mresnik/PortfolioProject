@@ -1,0 +1,136 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Montserrat;
+  color: #554591;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.header {
+  height: auto;
+  width: 100%;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-inner {
+    height: auto;
+    padding-top: 30px;
+    border-bottom: 5px solid #554591;
+    width: 93%;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo {
+    display: inline-block;
+    margin-left: 1em;
+    width: 20%;
+}
+
+.header-identity {
+  text-align: right;
+  padding-bottom: 14px;
+  width: 80%;
+  display: inline;
+}
+
+.header-name {
+  margin: 0px 0px 0px 0px;
+}
+
+.header-tagline {
+  margin: 0px 0px 0px 0px;
+  color: #00A8A8;
+}
+
+.main-bigpic {
+  width: 93%;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  padding-top: 1em;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.projects {
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+.projects-all {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-title {
+  text-align: left;
+  font-size: 2em;
+  margin-left: 1em;
+  color: #554591;
+  padding: 14px;
+}
+
+.project-details {
+  width: 33.3%;
+  min-width: 210px;
+  display: inline-block;
+}
+
+.project-image {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-name {
+  text-align: center;
+  color: #00A8A8;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.project-url {
+  text-align: center;
+  color: #554591;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
