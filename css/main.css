@@ -119,6 +119,8 @@ h3 {
   color: #554591;
 }
 
+/* The following text text-decoration code from the example at https://www.w3schools.com/css/css_link.asp on May 5, 2018*/
+
 a:link {
     text-decoration: none;
 }
